@@ -1,15 +1,15 @@
 [build-system]
-requires = ["setuptools>=42.0", "wheel"]
+requires = ["setuptools>=45", "wheel"]
 build-backend = "setuptools.build_meta"
 
-[tool.pytest]
+[tool.pytest.ini_options]
 testpaths = ["tests"]
-python_files = "test_*.py"
+addopts = "-v"
 
 [tool.black]
 line-length = 88
-include = '\.pyi?$'
+target-version = ['py38']
 
-[tool.isort]
-profile = "black"
-line_length = 88
+[project]
+name = "gantt_app"
+version = "0.1.0"

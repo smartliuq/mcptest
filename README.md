@@ -1,32 +1,35 @@
 # 甘特图生成器项目
 
-这是一个用于生成和管理甘特图的Python应用程序。
+这是一个基于Python的甘特图生成和管理应用程序。
 
-## 功能特点
+## 功能特性
 
-- 甘特图生成和可视化
-- 项目任务管理
-- 导出多种格式
-- 用户友好的GUI界面
+- 创建和管理甘特图
+- 支持任务进度跟踪
+- 可视化项目时间轴
+- 导出多种格式（CSV、Excel、图片）
 
-## 安装
+## 安装依赖
 
 ```bash
 pip install -r requirements.txt
 ```
 
-## 使用
+## 快速开始
 
 ```bash
 python src/gantt_app/main.py
 ```
 
-## 依赖
+## 项目结构
 
-- matplotlib>=3.5.0
-- numpy>=1.22.0
-- pandas>=1.4.0
-- PyQt5>=5.15.0
+- `src/gantt_app/`: 主要源代码
+  - `core/`: 核心甘特图逻辑
+  - `ui/`: 用户界面
+  - `utils/`: 工具函数
+- `docs/`: 文档
+- `tests/`: 测试文件
+- `examples/`: 示例文件
 
 ## 许可证
 
