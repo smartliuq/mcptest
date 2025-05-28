@@ -1,0 +1,6 @@
+matplotlib>=3.5.0
+numpy>=1.22.0
+pandas>=1.4.0
+pytest>=7.0.0
+sphinx>=4.4.0
+PyQt5>=5.15.0
