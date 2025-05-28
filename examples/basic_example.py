@@ -1,4 +1,4 @@
- #!/usr/bin/env python
+#!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
 """
@@ -154,6 +154,9 @@ def main():
     # 导出到CSV
     chart.export_csv("project_gantt.csv")
     print("甘特图数据已导出到 project_gantt.csv")
+
+
+### for Alice to learn
 
 
 if __name__ == "__main__":
